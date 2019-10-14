@@ -10,8 +10,10 @@ $ ./mvnw spring-boot:run
 ### Running Standalone
 $ ./mvnw package && java -jar target/campaign-0.1.0-SNAPSHOT.jar
 
-### Running Docker Container
+### Building Docker Image
 $ ./mvnw install dockerfile:build
+
+### Running Docker Container
 $ docker run -p 8080:8080 -t democredit/credit
 
 ## Built With
